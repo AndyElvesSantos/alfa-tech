@@ -1,0 +1,293 @@
+/*RESETANDO CSS*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'popins', sans-serif;
+}
+
+/* FORMATAÇÃO GERAL DAS SEÇÕES */
+
+.container2{
+    max-width: 1024px;
+    min-width: 300px;
+    margin: 0 auto;
+}
+.secao{
+    max-width: 1024px;
+    min-width: 300px;
+    margin: 0 auto;
+    position: relative; 
+}
+.secao-normal{
+    max-width: 1024px;
+    min-width: 300px;
+    margin: 0 auto;
+}
+
+/* FORMATAÇAÕ DO TOPO */
+.topo{
+    width: 100%;
+    position: fixed; 
+    height: 70px;
+    background-color:white;
+
+}
+
+.paragrafo-topo, 
+.link-topo,
+.titulo-topo,
+.logo-topo  { 
+    position: absolute;
+}
+.logo-topo{
+    width: 50px;
+    top: 10px;
+}
+
+.link-topo{
+    right: 0;
+    top: 25px;
+}
+.titulo-topo{
+    left: 60px;
+    font-size: 24px; 
+    top: 1px;
+}
+.paragrafo-topo{
+    left: 60px;
+    top: 30px;
+    color: #2f86d6;
+    font-weight: bold;
+}
+.link-topo a{
+    padding-right: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+/* FORMATAÇÃO DO BANNER */
+.banner{
+    background-color: #2f86d6;
+    height: 600px;
+}
+.secao-dividida{
+    width: 1024px;
+    display: flex;
+    margin: 0 auto;
+}
+.img-banner{
+
+     padding-top: 100px;
+}
+.paragrafo-banner1{
+    padding-top: 200px;
+    color: #f6f6f6;
+}
+.paragrafo-banner2{
+    padding-top: 20px;
+    color: #f1f3f7;
+}
+.sub-banner{
+    padding-top: 20px;
+    color: #f1f3f7;
+}
+
+/* FORMATAÇÃO DO PRIMEIRO ANUNCIO */
+.anuncio-1{
+    background-color: #233032;
+    height: 120px;
+}
+.anuncio-1 
+.botao{
+    width: 22%;
+    text-align: right;
+    color: #f1f3f7;
+    text-decoration: none;
+    background-color: #2f86d6;
+    margin-top: 30px;
+    margin-left: 290px;
+    margin-bottom: 30px;
+    padding: 15px 15px 15px 20px;
+    border-radius: 5px;
+}
+.anuncio-1 a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.anuncio-1 img{
+    padding-right: 3px;
+}
+.sub-anuncio1{
+    padding-top: 30px;
+    color: #f1f3f7;
+}
+.paragrafo-anuncio1{
+    color: #f1f3f7;
+}
+.anuncio-container1{
+    display: flex;
+    max-width: 1024px;
+    min-width: 300px;
+    margin: 0 auto;
+    /* position: relative; */
+}
+.anuncio-info{
+    margin-top: 5px;
+}
+
+/* FORMATAÇÃO DA SEÇÃO DE INFORMAÇÕES */
+/* .sub-info,
+.div-info1,
+.div-info2,
+.div-info3{
+    position: absolute;
+} */
+.div-info1{
+    top: 130px;
+    text-align: center;
+}
+.div-info2{
+    left: 33%;
+    top: 130px;
+    text-align: center;
+}
+.div-info3{
+    left: 66%;
+    top: 130px;
+    text-align: center;
+}
+.sub-info{
+    text-align: center;
+    padding-top: 40px;
+}
+.secao-informacoes h3 {
+    padding-top: 20px;
+    text-align: center;
+}
+.secao-informacoes p {
+    text-align: center;
+}
+.img-info{
+    width: 33%;
+}
+.secao-informacoes{
+    height: 400px;
+}
+.info-divisao{
+    padding-top: 40px;
+    width: 100%;
+    display: flex;
+}
+
+/* FORMATAÇÃO SEÇÃO PLANOS */
+.img-planos{
+    width: 100px;
+}
+.secao-planos{
+    background-color: #f1f3f7;
+    height: 700px;
+}
+.secao-planos h2{
+    text-align: center;
+    padding-top: 30px;
+}
+
+/*Formatação da tabela DA SEÇÃO PLANO*/
+table{
+    margin-top: 50px;
+    background-color: white;
+    box-shadow: 0px 0px 10px 7px #2f86d6;
+}
+table th{
+    height: 150px;
+    text-align: center;
+    padding: 40px;
+    font-weight: bold;
+
+}
+table tr{
+    height: 50px;
+    text-align: center;
+    font-weight: bold;
+    border: 2px solid black;
+}
+table .linha-destaque{
+    background-color: #f1f3f7;
+}
+.secao-planos p{
+    color: #a89f9f;
+    font-weight: normal;
+}
+
+/* FORMATAÇÃO DO SEGUNDO ANUNCIO */
+.anuncio-2{
+    background-color: #2f86d6;
+    height: 120px;
+}
+.anuncio-2 
+.botao2{
+    position: absolute;
+    top: 30px;
+    right: 0;
+    background-color: #233032;
+    padding: 15px 15px 15px 20px;
+    border-radius: 5px;
+}
+.anuncio-2 a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.anuncio-2 img{
+    padding-right: 3px;
+}
+.sub-anuncio2{
+    padding-top: 30px;
+    color: #f1f3f7;
+}
+
+/* FORMATAÇÃO SEÇÃO CONTATO */
+.secao-contato{
+    padding-top: 25px;
+    height: 300px;
+    text-align: center;
+}
+.secao-contato .alter{
+    text-align: left;
+}
+.paragrafo-contato{
+    line-height: 35px;
+    padding-top: 30px;
+    font-weight: bold;
+}
+
+/* FORMATAÇÃO SEÇÃO RODAPÉ */
+.secao-final{
+    position: relative;
+    width: 1024px;
+}
+.logo-rodape{
+    width: 50px;
+    position: absolute;
+    left: 350px;
+}
+.rodape{
+    height: 50px;
+    background-color: #f1f3f7
+}
+h4{
+    padding-top: 15px;
+    text-align: center;
+} 
+
+/* SPAN */
+.texto-azul{
+    color: #2f86d6;
+}
+.linkedin{
+    color: #2f86d6;
+    text-decoration: none;
+}
